@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+.button
+{
+   width: 300px;
+   padding: 10px;
+   border: 5px solid Green;
+   margin: 0;
+
+
+}
+
+.login-container
+{
+    
+    background-color: rgb(138, 194, 243);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0, 0, 0.2);
+    text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+
+<form action ="addProduct" method ="post" enctype="multipart/form-data">
+<div class="Login-container">
+ProductCode :<input type="text" name ="code"><br>
+ProductName :<input type="text" name ="name"><br>
+ProductPrice :<input type="text" name="price"><br>
+ProductQty :<input type ="text" name ="qty"><br>
+
+ProductImg :<input type= "file" name ="photo"><br>
+<!-- <input input ="submit" value="save"><br> -->
+
+<input type="submit" value="AddProduct">
+
+</div>
+</form>
+
+</body>
+</html>
